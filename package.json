@@ -1,0 +1,68 @@
+{
+  "name": "visualizer-hook",
+  "version": "1.0.0",
+  "description": "Custom React hook for audio visualization from voice input or audio files",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "audio",
+    "visualization",
+    "voice",
+    "typescript",
+    "audio-visualizer",
+    "web-audio-api",
+    "beat-detection",
+    "frequency-analysis",
+    "spectrum-analyzer",
+    "react-hooks",
+    "audio-processing"
+  ],
+  "author": "Pham Tien",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/jest": "^28.1.1",
+    "@types/react": "^18.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "jest": "^28.1.1",
+    "prettier": "^2.6.2",
+    "react": "^18.1.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phamtien/visualizer-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phamtien/visualizer-hook/issues"
+  },
+  "homepage": "https://github.com/phamtien/visualizer-hook#readme"
+} 
